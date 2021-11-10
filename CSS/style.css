@@ -27,7 +27,7 @@ q:before, q:after {content: '';content: none;}
 table {border-collapse: collapse;border-spacing: 0;}
 
  *{box-sizing: border-box;}
-body {font-family: Poppins, sans-serif;overflow: hidden}
+body {font-family: Poppins, sans-serif;overflow: auto}
 
 .section_home {background-image: url("../IMG/bg_home.jpg");background-size: cover; color: white; margin: 0 auto}
 .section_home .navbar {display: flex;align-items: center;
@@ -73,13 +73,41 @@ body {font-family: Poppins, sans-serif;overflow: hidden}
   .section_home .content{background: rgba(255,255,255,0.4); border-radius: 30px;width: 80%;margin: 0 auto;text-align: center;}
   .section_home .cadre_container{display: none;}
   .section_home .btn{width: 80%; font-size: 30px}
-  .section_home {}
-  .section_home {}
-  .section_home {}
   }
-@media only screen and (min-width:40.063em) and (max-width:64em) and (orientation:landscape){
 
+@media only screen and (min-width:40.063em) and (max-width:64em) and (orientation:landscape){
+  body {background: #494955;}
+
+  .section_home {background:none}
+  .section_home .navbar {display: block;}
+  .section_home .nav_list{display: none}
+  .section_home .logo_header {display: flex;}
+  .section_home .logo_header img {width: 150px; margin: 2em auto}
+  .section_home .container {flex-direction: column;max-width: 650px;margin-top: 3em;}
+
+  .section_home .content_img{ max-width: 100%;order: 1;margin-bottom: -10em;}
+  .section_home .content_img a {display: none;}
+
+  .section_home .content {max-width: 100%;order: 2}
+  .section_home .content{background: rgba(255,255,255,0.4); border-radius: 30px;width: 80%;margin: 0 auto;text-align: center;}
+  .section_home .cadre_container{display: none;}
+  .section_home .btn{width: 80%; font-size: 30px}
   }
 @media only screen and (max-width:40em){
+  body {background: #494955;}
 
+  .section_home {background:none}
+  .section_home .navbar {display: block;}
+  .section_home .nav_list{display: none}
+  .section_home .logo_header {display: flex;}
+  .section_home .logo_header img {width: 150px; margin: 2em auto}
+  .section_home .container {flex-direction: column;max-width: 650px;margin-top: 3em;}
+
+  .section_home .content_img{ max-width: 100%;order: 1;margin-bottom: -10em;}
+  .section_home .content_img a {display: none;}
+
+  .section_home .content {max-width: 100%;order: 2}
+  .section_home .content{background: rgba(255,255,255,0.4); border-radius: 30px;width: 80%;margin: 0 auto;text-align: center;}
+  .section_home .cadre_container{display: none;}
+  .section_home .btn{width: 80%; font-size: 30px}
   }
