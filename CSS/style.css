@@ -29,6 +29,7 @@ table {border-collapse: collapse;border-spacing: 0;}
  *{box-sizing: border-box;}
 body {font-family: Poppins, sans-serif;overflow: auto}
 .btn{ text-align: center; color: white; background-color: #E84181; border-radius: 20px; padding: 1em; text-decoration: none; margin: 10px auto;}
+.btn:active {box-shadow: -1px -1px 10px 5px rgb(232 65 129 / 50%)}
 
 .section_home {background-image: url("../IMG/bg_home.jpg");background-size: cover; color: white; margin: 0 auto}
 .section_home .navbar {display: flex;align-items: center;
@@ -63,15 +64,19 @@ body {font-family: Poppins, sans-serif;overflow: auto}
 .shop .content{ width: 80%; margin: 0 auto;}
 .shop .titre{ font-weight: bold; font-size: 25px; margin: 2em 0;}
 .shop .selection_prod{display: flex;justify-content: space-around; align-items: center;}
-.shop .produit {background: #fff; border-radius: 20px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;width: 20%;display: flex;flex-direction: column;align-items: center;padding: 1em;
-}
+.shop .produit {background: #fff; border-radius: 20px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;width: 20%;display: flex;flex-direction: column;align-items: center;padding: 1em;}
 .shop .toy img{height: 200px; margin-right: 0.5em;}
 .shop .img_prod {display: flex;align-items: center;height: 250px;}
 .shop .like img {width: 24px}
 .shop .sous_titre {display: flex; align-items: center;}
 .shop .favorite {margin-left: 0.2em;}
-
-
+.shop .Recent_orders {display: flex; align-items: center;justify-content: space-evenly;}
+.shop .order {background: #fff; border-radius: 20px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;width: 20%;display: flex;align-items: center;padding: 1em; margin-bottom: 2em;width: 30%;justify-content: space-evenly;height: 120px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.shop .order img {margin-bottom: 1.7em;}
+.shop .txt {line-height: 1.4;}
+.shop .titre_item {font-weight: bold; font-size: 18px;}
+.shop .desc {font-size: 16px}
+.shop .txt a {color: #8B8BA1; text-decoration: none;}
 
 
 
