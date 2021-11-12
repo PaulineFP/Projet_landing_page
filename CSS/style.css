@@ -28,6 +28,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 
  *{box-sizing: border-box;}
 body {font-family: Poppins, sans-serif;overflow: auto}
+.btn{ text-align: center; color: white; background-color: #E84181; border-radius: 20px; padding: 1em; text-decoration: none; margin: 10px auto;}
 
 .section_home {background-image: url("../IMG/bg_home.jpg");background-size: cover; color: white; margin: 0 auto}
 .section_home .navbar {display: flex;align-items: center;
@@ -48,7 +49,6 @@ body {font-family: Poppins, sans-serif;overflow: auto}
 
 .section_home .titre_img img {max-width: 350px;}
 .section_home .text{margin-bottom: 1em}
-.section_home .btn{ text-align: center; color: white; background-color: #E84181; border-radius: 20px; padding: 1em; text-decoration: none; margin: 10px auto;}
 .section_home .btn:active {box-shadow: -1px -1px 10px 3px rgba(232, 65, 129, 0.6)}
 .section_home .cadre_container{display: flex;justify-content: center;align-items: center;margin-top: 4em;}
 .section_home .cadres_cat{display: flex; background: rgba(42, 45, 54,0.6); border: solid 2px #E84181;border-radius: 20px;box-shadow: -1px -1px 10px 0px rgb(232 65 129 / 50%);justify-content: center;align-items: center; height: 90px;margin-right: 1em;padding: 1.5em 0.5em;text-align: justify; width: 80%;}
@@ -57,6 +57,38 @@ body {font-family: Poppins, sans-serif;overflow: auto}
 .section_home .cadres_cat .cadre {display: flex; align-items: center;}
 .section_home .cadre img {margin-bottom: 3.5em;}
 .section_home .info_cadre {margin-left: 1em; color: white; text-decoration: none;}
+
+.shop{background: #E5E5E5;}
+.shop .container{display: flex; padding: 3em auto;overflow: hidden;}
+.shop .content{ width: 80%; margin: 0 auto;}
+.shop .titre{ font-weight: bold; font-size: 25px; margin: 2em 0;}
+.shop .selection_prod{display: flex;justify-content: space-around; align-items: center;}
+.shop .produit {background: #fff; border-radius: 20px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;width: 20%;display: flex;flex-direction: column;align-items: center;padding: 1em;
+}
+.shop .toy img{height: 200px; margin-right: 0.5em;}
+.shop .img_prod {display: flex;align-items: center;height: 250px;}
+.shop .like img {width: 24px}
+.shop .sous_titre {display: flex; align-items: center;}
+.shop .favorite {margin-left: 0.2em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width:40.063em) and (max-width:64em) and (orientation:portrait){
   body {background: #494955;}
