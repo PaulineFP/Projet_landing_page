@@ -78,9 +78,9 @@ body {font-family: Poppins, sans-serif;overflow: auto}
 .shop .desc {font-size: 16px}
 .shop .txt a {color: #8B8BA1; text-decoration: none;}
 
-
-
-
+.footer {padding: 2em; background-color: #fff; display: flex; justify-content: space-around;}
+.footer a {padding: 1em;}
+.footer a:hover, .footer a:active {background-color: #E84181; border-radius: 50px;box-shadow: -1px -1px 10px 5px rgb(232 65 129 / 50%); display: flex;align-items: center;}
 
 
 
