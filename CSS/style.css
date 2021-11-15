@@ -80,7 +80,7 @@ body {font-family: Poppins, sans-serif;overflow: auto}
 
 .footer {padding: 2em; background-color: #fff; display: flex; justify-content: space-around;}
 .details .avis
-.footer a:hover, .footer a:active {background-color: #E84181; border-radius: 50px;box-shadow: -1px -1px 10px 5px rgb(232 65 129 / 50%); display: flex;align-items: center;}
+.footer a:hover, .footer a:active {background-color: #E84181; border-radius: 50px;box-shadow: -1px -1px 10px 5px rgb(232 65 129 / 50%); display: flex;align-items: center;padding: 0.5em;}
 
 
 /*PAGE PRODUIT*/
